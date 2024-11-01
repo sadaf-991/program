@@ -7,9 +7,8 @@ for(let i = 0; i < a.length; i++){
     // + will convert back the string num into number
     let num = +a[i];
     count[num] = count[num] ? count[num] + 1 : 1;
-    
 }
-// console.log(count);
+console.log(count);
 
 //count repeating letters in a string
 let str = "sadaf";
